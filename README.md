@@ -6,20 +6,17 @@
 
 ## 💻 Introduction
 
-This project implements Deal Ninja, a tool designed to help users find deals on e-commerce websites. Built with Next.js for a performant front end and leveraging Bright Data's web unlocker for reliable price monitoring, Deal Ninja empowers users to stay ahead of price fluctuations. The system automates price checks and triggers notifications through cron jobs, ensuring a smooth and unobtrusive experience.
+This project implements Deal Ninja, a tool designed to help users find deals on e-commerce websites. Built with Bootstrap for a performant frontend, Deal Ninja empowers users to stay ahead of price fluctuations. The system automates price checks and triggers notifications through automated bots, ensuring a smooth and unobtrusive experience.
 
 
 
 ## 📚 Tech Stack
 
-
-- Next.js
-- Bright Data
-- Cheerio
-- Nodemailer
-- MongoDB
-- Headless UI
-- Tailwind CSS
+- Bootstrap
+- Django
+- Beautiful Soap
+- MySQL
+- Request
 
 
 
