@@ -17,5 +17,10 @@ def get_link_data(url):
 
     price = soup.select_one(selector=".a-price-whole").getText()
     price = float(price.replace(',',''))
-
+    
+    a = [name,price]
+    for i in a:
+        base_url = 'https://api.telegram.org/bot6990017173:AAHD0ri3cvy0NuED3DD3YVacPLLtg635a5k/sendMessage?chat_id=-1002079705385&text={}'.format(i)
+        requests.get(base_url)
+    
     return name,price
