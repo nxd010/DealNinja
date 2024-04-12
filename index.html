@@ -26,28 +26,46 @@
                     <li><a href="#howTo" class="nav-link px-2 text-white">How to Use</a></li>
                     <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 " type="search" placeholder="Paste Your Link.." aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <!-- Search -->
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#searchModal"
+                    type="button"><i class="bi bi-search"></i> Search</button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 text-dark" id="searchModalLabel">Search For Product</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="text-end">
                     <!--Login-->
                     <button style="margin-left:10px ;" type="button" class="btn btn-outline-light me-2"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        Log in</button>
+                        data-bs-toggle="modal" data-bs-target="#exampleModal1">    Log in</button>
                     <div class="text-bg-light modal fade bg-opacity-10" id="exampleModal1" tabindex="-1"
                         aria-labelledby="exampleModal1Label" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5"
-                                    tabindex="-1" role="dialog" id="modalSignin">
+                                <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content rounded-4 shadow">
                                             <div class="modal-header p-5 pb-4 border-bottom-0">
                                                 <h1 class="fw-bold mb-0 fs-2.text-dark">Log In</h1>
-
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                             </div>
 
                                             <div class="modal-body p-5 pt-0">
@@ -305,37 +323,24 @@
         </div>
         <h2 class="fw-bold text-center">About</h2>
         <hr>
-        <div class="container text-center"  id="about">
+        <div class="container text-center" id="about">
             <div class="row align-items-* ">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"> </rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="nis.jpeg" alt="Avatar" class="img-fluid">
+                    
                     <h2 class="fw-normal">Nischal Deo</h2>
                     <p><a class="btn btn-secondary" href="https://github.com/nxd010" target="_blank"
                             rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="shreyash.jpg" alt="Avatar" class="img-fluid">
+                    
                     <h2 class="fw-normal">Sheryash Kumar Dube</h2>
                     <p><a class="btn btn-secondary" href="https://github.com/ShreyashkumarDube" target="_blank"
                             rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="nived.jpg" alt="Avatar" class="img-fluid">
                     <h2 class="fw-normal">Nived Kalliyath</h2>
 
                     <p><a class="btn btn-secondary" href="https://github.com/NivedKalliyath" target="_blank"
