@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Link
 from .forms import AddLinkForm
 # Create your views here.
@@ -48,3 +48,9 @@ def home_view(request):
     }
 
     return render(request, 'links/main.html',context)
+
+def update_prices(request):
+    qs = Link.objects.all()
+    for link in qs:
+        link.save()
+    return redirect('home')

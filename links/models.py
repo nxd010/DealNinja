@@ -1,5 +1,6 @@
 from django.db import models
 from .utils import get_link_data
+import time
 # Create your models here.
 
 class Link(models.Model):
