@@ -32,6 +32,8 @@ This project implements Deal Ninja, a tool designed to help users find deals on 
 - **Scraped Product Details**: Present product image, title, pricing, and extracted details from the source website.
 
 
+
+
 ## 🏎️ Run Locally
 
 Clone the project
@@ -48,26 +50,11 @@ Go to the project directory
 
 ## 📀 Requirements 
 
-To run this project install the following: 
+To run this project run the following commnand : 
 
-Install Python 
 
 ```bash
-  pip install python
-```
-
-Install Django
-```bash
-  pip install django
-```
-Install BeautifulSoup
-```bash
-  pip install beautifulsoup4
-```
-
-Install Django Crispy Forms
-```bash
-  pip install django-crispy-forms
+  pip install -r requirements.txt
 ```
 
 ## 🚀 Deployment 
@@ -77,9 +64,13 @@ Go To Terminal
   python manage.py runserver <port>
 ```
 
+
+
 ## 🔔 Notification At
 
-[🤖 Telegram Channel](https://t.me/+93aUMqAF655kMTM1)
+[📖 Abstract Link](https://drive.google.com/file/d/15mqIQodZuMYAFsk1KcXkNxyL3bOJDC66/view?usp=drive_link)
+
+
 
 
 
