@@ -68,9 +68,7 @@ Go To Terminal
 
 ## 🔔 Notification At
 
-[📖 Abstract Link](https://drive.google.com/file/d/15mqIQodZuMYAFsk1KcXkNxyL3bOJDC66/view?usp=drive_link)
-
-
+[🤖 Telegram Channel](https://t.me/+93aUMqAF655kMTM1)
 
 
 
