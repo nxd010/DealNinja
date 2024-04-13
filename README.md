@@ -24,9 +24,9 @@ This project implements Deal Ninja, a tool designed to help users find deals on 
 
 - **Product Scraping**: Users can provide Amazon product URLs for price scraping.
 
-- **Email Notifications**:  Get notified via email for various product changes.
+- **Message Notifications**:  Get notified via telegram for various product changes.
 
-- **Track Option**: Users are to provide email addresses and opt-in for tracking.
+- **Track Option**: Tracking for the product.
 
 - **Scraped Product Details**: Present product image, title, pricing, and extracted details from the source website.
 
