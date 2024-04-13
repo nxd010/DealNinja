@@ -10,7 +10,7 @@ This project implements Deal Ninja, a tool designed to help users find deals on 
 
 ## Abstract Link
 
-[📖 Abstract Link](https://drive.google.com/file/d/15mqIQodZuMYAFsk1KcXkNxyL3bOJDC66/view?usp=drive_link){:target="_blank"}
+[📖 Abstract Link](https://drive.google.com/file/d/15mqIQodZuMYAFsk1KcXkNxyL3bOJDC66/view?usp=drive_link)
 
 
 ## 📚 Tech Stack
@@ -79,7 +79,7 @@ Go To Terminal
 
 ## 🔔 Notification At
 
-[🤖 Telegram Channel](https://t.me/+93aUMqAF655kMTM1){:target="_blank"}
+[🤖 Telegram Channel](https://t.me/+93aUMqAF655kMTM1)
 
 
 
