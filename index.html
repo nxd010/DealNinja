@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="x-icon" href="lol.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deal Ninja -Bachat Karne ki Ninja Technique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4f911898cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header class="p-3 text-bg-dark ">
+        <div class="container" id="home">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="#home" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img src="lol.png" alt="" width=50px>
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 px-2">
+                    <li><a href="#feature" class="nav-link px-2 text-white">Features</a></li>
+                    <li><a href="#howTo" class="nav-link px-2 text-white">How to Use</a></li>
+                    <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+                </ul>
+                <!-- Search -->
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#searchModal"
+                    type="button"><i class="bi bi-search"></i> Search</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 text-dark" id="searchModalLabel">Search For Product</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-end">
+                    <!--Login-->
+                    <button style="margin-left:10px ;" type="button" class="btn btn-outline-light me-2"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal1">    Log in</button>
+                    <div class="text-bg-light modal fade bg-opacity-10" id="exampleModal1" tabindex="-1"
+                        aria-labelledby="exampleModal1Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content rounded-4 shadow">
+                                            <div class="modal-header p-5 pb-4 border-bottom-0">
+                                                <h1 class="fw-bold mb-0 fs-2.text-dark">Log In</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            </div>
+
+                                            <div class="modal-body p-5 pt-0">
+                                                <form class="">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control rounded-3"
+                                                            id="floatingInput" placeholder="name@example.com">
+                                                        <label for="floatingInput">Email address</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="password" class="form-control rounded-3"
+                                                            id="floatingPassword" placeholder="Password">
+                                                        <label for="floatingPassword">Password</label>
+                                                    </div>
+                                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                                                        type="submit">Sign up</button>
+                                                    <hr class="my-4">
+                                                    <h2 class="fs-5 fw-bold mb-3 text-center">Or use a third-party</h2>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-twitter"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                                                        </svg>
+                                                        Log in with Twitter
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-facebook"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                                        </svg>
+                                                        Log in with Facebook
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-github"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                                        </svg>
+                                                        Log in with GitHub
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sign up trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sign Up
+                    </button>
+
+                    <!-- Sign up -->
+                    <div class="text-bg-light modal fade bg-opacity-10" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5"
+                                    tabindex="-1" role="dialog" id="modalSignin">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content rounded-4 shadow">
+                                            <div class="modal-header p-5 pb-4 border-bottom-0">
+                                                <h1 class="fw-bold mb-0 fs-2.text-dark">Sign up for free</h1>
+                                            </div>
+
+                                            <div class="modal-body p-5 pt-0">
+                                                <form class="">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control rounded-3"
+                                                            id="floatingInput" placeholder="name@example.com">
+                                                        <label for="floatingInput">Email address</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="password" class="form-control rounded-3"
+                                                            id="floatingPassword" placeholder="Password">
+                                                        <label for="floatingPassword">Password</label>
+                                                    </div>
+                                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                                                        type="submit">Sign up</button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-check2-square"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z" />
+                                                        <path
+                                                            d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0" />
+                                                    </svg>
+                                                    <small class="text-body-secondary text-center">By clicking Sign up,
+                                                        you
+                                                        agree to the terms of
+                                                        use.</small>
+                                                    <hr class="my-4">
+                                                    <h2 class="fs-5 fw-bold mb-3 text-center">Or use a third-party</h2>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-twitter"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                                                        </svg>
+                                                        Sign up with Twitter
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-facebook"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                                        </svg>
+                                                        Sign up with Facebook
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                                        type="submit">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-github"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                                        </svg>
+                                                        Sign up with GitHub
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class=".container ">
+        <img class=".img-fluid. max-width: 100% height: auto;" src="ba.jpg" alt="">
+    </div> -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
+                <div class="maintxt">
+                    <img src="ba.jpg" class="img-responsive">
+                    <p class="overlay-text">ASdfasd</p>
+                </div>
+            </div>
+        </div> -->
+    <img src="back.png" class="img-fluid" alt="...">
+    <div class="col-md-5 order-md-1">
+        <!-- <img src="ba.jpg" alt="">
+                    <title>Placeholder</title> -->
+
+    </div>
+    </div>
+    <!-- Features -->
+    <div class="container px-4 py-2" id="feature">
+        <h2 class="pb-2 border-bottom fw-bold text-center">Features</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis">What Deal Ninja Does?</h2>
+                <p class="text-body-secondary">We quickly collects product information from online stores without
+                    being
+                    noticed. So that you get the best <b>Deal!</b>
+                </p>
+            </div>
+
+            <div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <i class="bi bi-bag"></i>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Product Scraping</h4>
+                        <p class="text-body-secondary">Our search bar lets you quickly enter Amazon product links to
+                            gather data discreetly, much like a ninja gathers information unnoticed.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Email Notifications</h4>
+                        <p class="text-body-secondary">We quickly send email alerts for different situations, like
+                            when
+                            products are back in stock or at their lowest price, similar to how a ninja delivers
+                            messages secretly at night.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Track Option</h4>
+                        <p class="text-body-secondary">Users can choose to be notified by giving their email through
+                            a
+                            pop-up, similar to how a ninja communicates covertly with allies.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Scraped Product Details</h4>
+                        <p class="text-body-secondary">We display the product's image, title, price, and details
+                            with
+                            accuracy, similar to a ninja skillfully throwing a shuriken.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="howTo">
+        <h2 class="pb-2 border-bottom fw-bold  text-center">How To Use?</h2>
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="serc.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text fw-bold">Search For The Product</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col -6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="cop.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text fw-bold">Copy The Link</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="thu.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text fw-bold"> Provide Email and Let the Ninja Work!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="fw-bold text-center">About</h2>
+        <hr>
+        <div class="container text-center" id="about">
+            <div class="row align-items-* ">
+                <div class="col-lg-4">
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="nis.jpeg" alt="Avatar" class="img-fluid">
+                    
+                    <h2 class="fw-normal">Nischal Deo</h2>
+                    <p><a class="btn btn-secondary" href="https://github.com/nxd010" target="_blank"
+                            rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="shreyash.jpg" alt="Avatar" class="img-fluid">
+                    
+                    <h2 class="fw-normal">Sheryash Kumar Dube</h2>
+                    <p><a class="btn btn-secondary" href="https://github.com/ShreyashkumarDube" target="_blank"
+                            rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="nived.jpg" alt="Avatar" class="img-fluid">
+                    <h2 class="fw-normal">Nived Kalliyath</h2>
+
+                    <p><a class="btn btn-secondary" href="https://github.com/NivedKalliyath" target="_blank"
+                            rel="noopener noreferrer"> <i class="bi bi-github"></i> GitHub</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div>
+        </div>
+        <footer class="d-flex align-items-center justify-content-center fw-bold ">
+            <p class="fw-bold">Project by Kancha Devs for DevJam 2024</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
