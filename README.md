@@ -29,3 +29,43 @@ This project implements Deal Ninja, a tool designed to help users find deals on 
 - **Track Option**: Users are to provide email addresses and opt-in for tracking.
 
 - **Scraped Product Details**: Present product image, title, pricing, and extracted details from the source website.
+
+
+  
+## 📀 Requirements 
+
+To run this project install the following: 
+
+Install Python 
+
+```bash
+  pip install python
+```
+
+Install Django
+```bash
+  pip install django
+```
+Install BeautifulSoup
+```bash
+  pip install beautifulsoup4
+```
+
+Install Django Crispy Forms
+```bash
+  pip install django-crispy-forms
+```
+
+## 🚀 Deployment 
+
+Go To Terminal 
+```bash
+  python manage.py runserver <port>
+```
+
+
+
+
+
+
+
