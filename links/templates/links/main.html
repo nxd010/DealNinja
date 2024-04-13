@@ -218,7 +218,8 @@
             </div>
         </div>
     </header>
-    {% if qs %}
+    <div class="container">
+        {% if qs %}
                 {% for item in qs %}
                         <div class="card mt-3">
                             <div class="card-header">
@@ -237,6 +238,8 @@
                 {% else %}
                     
                 {% endif %}
+    </div>
+    
   
     <img src="{% static 'images/back.png' %}" class="img-fluid" alt="...">
     
@@ -338,34 +341,19 @@
         <div class="container text-center"  id="about">
             <div class="row align-items-* ">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"> </rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="{% static 'images/nis.jpeg' %}" alt="Avatar" class="img-fluid">
                     <h2 class="fw-normal">Nischal Deo</h2>
                     <p><a class="btn btn-secondary" href="https://github.com/nxd010" target="_blank"
                             rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="{% static 'images/shreyash.jpg' %}" alt="Avatar" class="img-fluid">
                     <h2 class="fw-normal">Sheryash Kumar Dube</h2>
                     <p><a class="btn btn-secondary" href="https://github.com/ShreyashkumarDube" target="_blank"
                             rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
+                    <img style=" vertical-align: middle; width: 150px;height: 150px; border-radius: 50%;" src="{% static 'images/nived.jpg' %}" alt="Avatar" class="img-fluid">
                     <h2 class="fw-normal">Nived Kalliyath</h2>
 
                     <p><a class="btn btn-secondary" href="https://github.com/NivedKalliyath" target="_blank"
