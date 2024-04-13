@@ -42,7 +42,7 @@ Clone the project
   git clone https://github.com/nxd010/DealNinja
 ```
 
-Go to the project directory
+Go to the project directory.
 
 ```bash
   cd DealNinja
@@ -50,7 +50,7 @@ Go to the project directory
 
 ## 📀 Requirements 
 
-To run this project run the following commnand : 
+To run this project, run the following command : 
 
 
 ```bash
